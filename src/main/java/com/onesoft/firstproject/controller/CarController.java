@@ -66,7 +66,7 @@ public class CarController {
 		return cs.patchedprice(a,a1);
 	}
 	
-	@PostMapping("setting_as_list") 
+	@PostMapping("setting_as_list1") 
 	public String setlist(@RequestBody List<Car> a) {
 		return cs.setlist(a);
 	}
