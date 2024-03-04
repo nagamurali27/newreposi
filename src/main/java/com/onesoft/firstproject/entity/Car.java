@@ -49,8 +49,8 @@ public class Car {
 		return color;
 	}
 
-	public void setColor(String color) {
-		this.color = color;
+	public void setColor(String colour) {
+		this.color = colour;
 	}
 
 	public boolean isPetrol() {
